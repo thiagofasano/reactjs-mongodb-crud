@@ -1,0 +1,12 @@
+header {
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+}
