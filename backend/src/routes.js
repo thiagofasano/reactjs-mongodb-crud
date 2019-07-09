@@ -1,11 +1,11 @@
 import { Router } from 'express';
 const routes =  new Router();
 
-import ProjectController from './controllers/Project';
+import ProjectListController from './controllers/ProjectList';
 
-routes.get('/project', ProjectController.index );
-routes.post('/project', ProjectController.store );
-routes.put('/project/:_id', ProjectController.update );
-routes.delete('/project/:_id', ProjectController.delete );
+routes.get('/project', ProjectListController.index );
+routes.post('/project', ProjectListController.store );
+routes.put('/project/:_id', ProjectListController.update );
+routes.delete('/project/:_id', ProjectListController.delete );
 
 export default routes;

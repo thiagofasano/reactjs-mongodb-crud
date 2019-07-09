@@ -1,6 +1,6 @@
 import Project from '../models/Project';
 
-class ProjectController {
+class ProjectListController {
 
     async index(req, res){
         
@@ -36,6 +36,7 @@ class ProjectController {
     }
 
     async delete(req, res){
+        
         const _id = req.params;
         await Project.deleteOne(_id);
 
@@ -44,4 +45,4 @@ class ProjectController {
 
 }
 
-export default new ProjectController();
+export default new ProjectListController();
