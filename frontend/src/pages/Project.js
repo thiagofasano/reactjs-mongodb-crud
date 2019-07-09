@@ -19,16 +19,15 @@ class Project extends Component {
         return(
             <div id="listProjects">
 
-                <h1 className="title">List</h1>
-                                
+                <h1 className="title">Projects</h1>
+           
                 <ul>
                 
-                { this.state.projects.map(project => 
-                   <Actions project={project} key={project._id} />
-                )}
+                    { this.state.projects.map(project => 
+                    <Actions project={project} key={project._id} />
+                    )}
                 
                 </ul>             
-                
                 
             </div>
         );

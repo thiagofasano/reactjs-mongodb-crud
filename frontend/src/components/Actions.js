@@ -4,7 +4,7 @@ function Actions( {project} ){
     return (
         <>
         <li>
-            {project.title} <br />
+            <strong>Título:</strong> {project.title}
             <small> <a href="#a">Editar</a> - <a href="#b">Remover</a> </small>
         </li>
         </>

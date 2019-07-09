@@ -15,6 +15,7 @@ export default function Header(){
 
                 <nav className="header-menu">
                     <ul>
+                        <li><Link to="/">Home</Link></li>
                         <li><Link to="/project">Gerenciar</Link></li>
                     </ul>
                 </nav>

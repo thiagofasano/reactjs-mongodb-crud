@@ -10,3 +10,11 @@ header li {
 header li a {
     text-decoration: none;
 }
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu li {
+    margin-left: 25px;
+}

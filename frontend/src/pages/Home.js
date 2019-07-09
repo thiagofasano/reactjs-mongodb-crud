@@ -4,7 +4,10 @@ class Home extends Component {
 
     render(){
         return(
-            <h1>Page Home</h1>
+            <div id="home">
+                <h1 className="title">Home</h1>
+                <h4>Bem-vindo ao CRUD Express/Mongo/ReactJS.</h4>
+            </div>
         );
     }
 
